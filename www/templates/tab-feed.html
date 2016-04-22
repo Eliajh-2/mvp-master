@@ -1,0 +1,46 @@
+<!-- <ion-view view-title='<img src="img/tagr-logo-176x37.png" class="header-logo" />' has-header="false" hide-nav-bar="true"> -->
+
+<ion-view view-title='<img src="img/tagr-logo-176x37.png" class="header-logo" />'>
+
+  <ion-content padding="false" ng-init="loadFeed()" delegate-handle="myScroll" scroll-detector>
+
+      <div id="promo" class="promo" style="display:none">
+          <ion-slide-box does-continue="true" auto-play="autoPlay" show-pager="false" slide-interval="4000" active-slide="myActiveSlide">
+              <ion-slide ng-repeat="item in promo">
+                <div id="{{item.artid}}" on-tap="promoToDetailView('{{item.artid}}')"><img ng-src="{{item.src}}"></div>
+              </ion-slide>
+          </ion-slide-box>
+      </div>
+
+<!--       <div style="background-color:#092e45;"><img src="img/tagr-logo-111x30.png" class="header-logo" /></div>
+ -->
+
+        <ion-refresher on-refresh="doFeedRefresh()"></ion-refresher>
+
+        <div class="row no-padding" ng-repeat="item in feed" ng-if="$index % 3 === 0" >
+            <div id="{{feed[$index].uid}}" class="col col-33" ng-if="$index < feed.length" on-tap="toDetailView('#/tab/feed/art/{{feed[$index].uid}}', $event)">
+                <img ng-src="{{feed[$index].thumb.display}}" class="feed-thumbnail" />
+            </div>
+            <div id="{{feed[$index+1].uid}}" class="col col-33" ng-if="$index + 1 < feed.length" on-tap="toDetailView('#/tab/feed/art/{{feed[$index+1].uid}}', $event)">
+                <img ng-src="{{feed[$index + 1].thumb.display}}" class="feed-thumbnail"  />
+            </div>
+            <div id="{{feed[$index+2].uid}}" class="col col-33" ng-if="$index + 2 < feed.length" on-tap="toDetailView('#/tab/feed/art/{{feed[$index+2].uid}}', $event)">
+                <img ng-src="{{feed[$index + 2].thumb.display}}" class="feed-thumbnail"  />
+            </div>
+        </div>
+
+      <ion-infinite-scroll on-infinite="feedGetMoreItems()" ng-if="moreFeedItems" distance="5%"></ion-infinite-scroll>
+
+<!--     <div class="row">
+      <div ng-repeat="photo in feed" class="col-lg-2 col-sm-3 col-xs-4 no-padding">
+        <a href="#/tab/feed/{{photo.type}}/{{photo.id}}">
+          <img ng-src="{{photo.src}}" class="feed-thumbnail">
+        </a>
+      </div>
+    </div> -->
+
+      <div class="tab-bumper"> </div>
+
+  </ion-content>
+</ion-view>
+

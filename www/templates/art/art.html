@@ -1,0 +1,165 @@
+<ion-view view-title='<img src="img/tagr-logo-176x37.png" class="header-logo" />' cache-view="false" hide-tabs="fullScreenMode">
+
+	<ion-nav-buttons side="left">
+		<button class="button button-icon icon ion-ios-arrow-back customBackButton" on-tap="backToRoot()"></button>
+	</ion-nav-buttons>
+
+	<ion-content id="detail" has-header="true" has-subheader="true" data-ng-init="init()" scroll="true" delegate-handle="detail-scroll">
+
+		<div class="detailFullScreen fullScreenDetailHide">
+			<ion-slide-box id="fullScreenSlideBox" class="center" show-pager="true"  active-slide="selectedImgIndex" on-slide-changed="detailSlideHasChanged($index)" delegate-handle="fullscreen-scroll">
+				<ion-slide id="fs-slide-{{$index}}" ng-repeat="item in imgs track by $index" on-finish-render="ngRepeatFinished" style="height:100%;width:100%;">
+					<!-- todo: image needs to be h & v-centered (styles take care of aspect)-->
+					<!--<ion-scroll zooming="true" style="height:100%;width:100%;background-color:green">-->
+					<img ng-src="{{item}}"  ng-click="toggleFullScreenMode()"/>
+					<!--</ion-scroll>-->
+				</ion-slide>
+			</ion-slide-box>
+		</div>
+
+		<div class="detailContent">
+			<div ng-if="art.collab_artists.length > 1">
+				<!--  had to remove class "bar" from the div below for this to work under Safari! -->
+				<div class="bar-subheader drop-down">
+
+					<div id="artistContainer" class="left">
+						<!-- multiple artists generic  to be replaced -->
+						<div id="multipleArtistsTitle" class="artist-info-wrapper">
+
+							<div ng-hide="multipleArtists" class="artist-photo" ng-click="showMultipleArtists()"><img style="float: left; background-image:url('img/multiple-artists.png'); border-radius:50%; background-position:center center; background-size:cover; width:35px; height:35px;" /></div>
+
+							<div class="left">
+								<div class="artist-name tagr-red"><a ng-click="showMultipleArtists()" style="font-size:11pt">Multiple Artists</a></div>
+
+								<div class="art-info"><span ng-if="art.title !=''">{{art.title}}</span><span ng-if="art.title ==''">Untitled</span> ({{art.created_display|extractYear}})</div>
+							</div>
+
+							<div class="clear"></div>
+
+						</div>
+						<!-- end multiple artists generic  to be replaced -->
+
+						<!-- multiple artists filled out -->
+						<div id="multipleArtistsContainer" style="display:none">
+
+
+							<div class="artist-photo multiple"><a href="#/tab/feed/artist/{{art.artist.uid}}"><img style="float: left; background-image:url('{{art.artist.photo.display}'); border-radius:50%; background-position:center center; background-size:cover; width:35px; height:35px;" /></a></div>
+
+							<div class="left">
+								<div class="artist-name multiple"><a href="#/tab/feed/artist/{{artist.uid}}" style="font-size:11pt">{{art.artist.name}}</a></div>
+							</div>
+
+							<div class="clear"></div>
+
+							<!-- TODO: check how multiple artists work -->
+							<div ng-repeat="artist in art.collab_artists">
+
+								<div class="artist-photo multiple"><a href="#/tab/feed/artist/{{artist.uid}}"><img style="float: left; background-image:url('{{artist.photo.display}'); border-radius:50%; background-position:center center; background-size:cover; width:35px; height:35px;" /></a></div>
+
+								<div class="left">
+									<div class="artist-name multiple"><a href="#/tab/feed/artist/{{artist.uid}}" style="font-size:11pt">{{artist.name}}</a></div>
+								</div>
+
+								<div class="clear"></div>
+
+							</div>
+						</div><!-- end repeat -->
+
+						<!-- end multiple artists filled out -->
+
+					</div><!-- end artist info wrapper -->
+
+					<div class="right">
+						<button class="button button-clear button-icon icon ion-ios-upload-outline" ng-click="openShareModal($event);"></button>
+						<button class="button button-clear button-icon icon favorite-heart" ng-class="(isFave == true) ? 'button-assertive ion-android-favorite' : 'button-stable ion-android-favorite-outline'" ng-click="favorites({{art.uid}})"></button>
+						<div class="clear"></div>
+						<div id="closeBtnMultipleArtists" style="display:none;" class="ion-ios-close-outline multiple-artists-close-btn" ng-click="hideMultipleArtists()">&nbsp;</div>
+					</div><!-- end right -->
+					<div class="clear"></div>
+
+				</div><!-- end bar subheader -->
+
+			</div><!-- end logic -->
+
+			<div ng-if="art.collab_artists.length == 1">
+
+				<div class="bar bar-subheader">
+					<div class="artist-info-wrapper">
+						<div class="left">
+
+							<div class="artist-photo left"><a href="#/tab/feed/artist/{{art.artist.uid}}"><img style="float: left; background-image:url('{{art.artist.photo.display}}'); border-radius:50%; background-position:center center; background-size:cover; width:35px; height:35px;" /></a></div>
+							<div class="left">
+								<div class="artist-name truncate"><a href="#/tab/feed/artist/{{art.artist.uid}}" style="font-size:11pt">{{art.artist.name}}</a></div>
+								<div class="art-info truncate"><span ng-if="art.title !=''">{{art.title}}</span><span ng-if="art.title ==''">Untitled</span> ({{art.created_display|extractYear}})</div>
+							</div>
+							<div style="clear: both;"></div>
+
+						</div><!-- end left -->
+						<div class="clear"></div>
+
+					</div><!-- end artist info wrapper -->
+
+
+					<div class="right">
+						<button class="button button-clear button-icon icon ion-ios-upload-outline" ng-click="openShareModal($event);"></button>
+						<button class="button button-clear button-icon icon favorite-heart" ng-class="(isFave == true) ? 'button-assertive ion-android-favorite' : 'button-stable ion-android-favorite-outline'" ng-click="favorites({{art.uid}})"></button>
+					</div>
+
+					<div style="clear: both;"></div>
+				</div><!-- end bar sub header -->
+			</div><!-- end logic -->
+
+			<!--<div style="background-image: url({{art.src}});background-repeat: no-repeat; height:425px; background-size: cover; background-position: center center;"  ng-click="openFullscreenImgs({{art.id}},0)"></div>-->
+			<div id="mainImage" style="background-image: url({{art.thumb.src}});" class="primary" on-swipe-left="onSwipeLeft()" on-swipe-right="onSwipeRight()" ng-click="toggleFullScreenMode()" nav-clear></div>
+
+			<div class="thumbnail-scrollbar">
+				<ion-scroll direction="x" has-bouncing="true" class="wide-as-needed" delegate-handle="thumb-scroll">
+					<img on-finish-render="ngRepeatFinished" ng-repeat="(key,image) in imgs track by $index" ng-src="{{image}}" id="image-thumb-{{key}}" class="image-list-thumb" ng-click="mainImageSwap({{art.uid}},{{key}},'{{image}}')" />
+				</ion-scroll>
+			</div>
+
+			<!--</div>-->
+
+			<div class="art-tags-container">
+				<div class="rounded-box">Last Tagd by <span class="tagr-red">Tati (23)</span> on 05-12-15</div>
+				<div class="rounded-box">Fans <span class="tagr-red">{{art.likes}}</span></div>
+				<div class="rounded-box"><i class="icon ion-location white"></i>&nbsp&nbsp<span class="tagr-red">{{art.city}}, {{art.country}}</span></div>
+				<div class="rounded-box">Views <span class="tagr-red">{{art.views}}</span></div>
+				<div class="rounded-box">Comments <span class="tagr-red">{{art.comments.total}}</span></div>
+				<div class="rounded-box">1st Tagr <span class="tagr-red">{{art.owner.username}}</span></div>
+				<div class="rounded-box" ng-show="art.extra_data.products">Swag <span class="tagr-red">Stickers, T-shirt</span></div>
+				<div class="clear"></div>
+			</div>
+
+			<div class="art-description" ng-show="art.extra_data.inspiration">
+				<div class="section-title">INSPIRATION</div>
+				<div class="section-copy inspiration" >
+					"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin varius elit sed luctus porttitor. Proin libero leo, auctor eu sapien vitae, aliquam lobortis nisi. Nam pulvinar lorem id diam tristique lobortis. Quisque eu tellus ligula. Curabitur malesuada orci eu vehicula tempus." - <span class="artist-name"><a href="#/tab/feed/artist/{{art.artist.uid}}" style="font-size:10pt">{{art.artist.name}}</a><span ng-repeat="artist in art.collab_artists"><a href="#/tab/feed/artist/{{artist.uid}}" style="font-size:10pt">{{artist.name}}{{$last ? '' : ', '}}</span></a></span>
+				</div>
+			</div>
+
+			<div class="love-bucks-wrapper" ng-show="canAcceptLoveBucks()">
+				<div class="section-title">Send <a href="#/tab/feed/artist/{{art.artist.uid}}">{{art.artist.name}}</a><span ng-repeat="artist in art.collab_artists" ><a href="#/tab/feed/artist/{{artist.uid}}">{{artist.name}}{{$last ? '' : ', '}}</a></span> SOME LOVE<br /><span class="legal">You will be redirected to Paypal</span></div>
+				<div class="row">
+					<button class="col button button-stable love-bucks-btn" ng-click="donateViaPaypal(1,'{{art.artist.extra_data.paypal_email}}')"><span class="tagr-red">$1</span></button>
+					<button class="col button button-stable love-bucks-btn" ng-click="donateViaPaypal(3,'{{art.artist.extra_data.paypal_email}}')"><span class="tagr-red">$3</span></button>
+					<button class="col button button-stable love-bucks-btn" ng-click="donateViaPaypal(5,'{{art.artist.extra_data.paypal_email}}')"><span class="tagr-red">$5</span></button>
+					<button class="col button button-stable love-bucks-btn" ng-click="donateViaPaypal(10,'{{art.artist.extra_data.paypal_email}}')"><span class="tagr-red">$10</span></button>
+				</div>
+			</div>
+
+
+			<div id="wrapper-{{art.uid}}" class="artmap-wrapper">
+				<div id="artmap" data-tap-disabled="true" ng-click="fullscreenMap();$event.preventDefault()"></div>
+			</div>
+
+
+			<div class="tab-bumper"> </div>
+
+		</div>
+
+
+	</ion-content>
+
+</ion-view>
+

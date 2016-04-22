@@ -1,0 +1,41 @@
+<ion-view view-title='<img src="img/tagr-logo-176x37.png" class="header-logo" />'>
+
+	<ion-nav-buttons side="left">
+		<button ng-if="isLoggedIn()" class="button button-clear" style="margin-left:10px;" ng-click="logout()">Logout</button>
+	</ion-nav-buttons>
+	<ion-nav-buttons side="right">
+		<button ng-if="isLoggedIn()" class="button button-clear" style="margin-right:10px;"  ng-controller="EditProfileCtrl" ng-click="editProfile()">Edit</button>
+	</ion-nav-buttons>
+
+    <ion-content data-ng-init=init()>
+
+            <ng-include src="'templates/login-fragment.html'"></ng-include>
+
+            <div class="artist-profile-wrapper" ng-if="isLoggedIn()">
+                <div class="artist-profile-container">
+                    <div class="artist-action-btns"></div>
+
+                    <div class="artist-profile">
+                        <div class="artist-photo"><img
+                                style="border-radius:50%; background-position:center center; background-size:cover; width:140px; height:140px;"
+                                ng-src="{{profile.profilePic}}"></div>
+                    </div>
+
+                    <div class="artist-action-btns">
+                        <div class="artist-share-btn-container"><a href="#"><i
+                                class="icon ion-ios-upload-outline artist-share-btn"></i></a></div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+
+                <div class="clear"></div>
+
+                <div class="artist-details">
+                    <div class="artist-detail-name">{{profile.name}}</div>
+                </div>
+
+        </div>
+
+    </ion-content>
+
+</ion-view>

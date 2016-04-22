@@ -1,0 +1,45 @@
+<style>
+.slides-counter {
+  width: 100%; 
+  text-align: center; 
+  position:fixed; 
+  bottom: 30px; 
+  z-index:100;
+}
+
+.hidden-counter {
+  display: none;
+}
+
+.show-counter {
+  display: block;
+}
+</style>
+
+<ion-view view-title='<img src="img/tagr-logo-176x37.png" class="header-logo" />' hide-tabs="true" ng-init="hideHeader = false" hide-nav-bar="hideHeader" on-tap="hideHeader = !hideHeader">
+
+  <ion-content scroll="false">
+
+    <ion-slide-box class="center" show-pager="false" active-slide="activeSlide()" on-slide-changed="slideHasChanged($index)">
+      <ion-slide ng-repeat="item in art.imgs track by $index">
+           <img ng-src="{{item}}" class="fullscreen-image" />
+      </ion-slide>
+    </ion-slide-box>
+
+<!--     <ion-slide-box class="center" show-pager="false" on-slide-changed="slideChanged(index)" active-slide="activeSlide">
+      <ion-slide ng-repeat="item in art.imgs">
+          <ion-scroll direction="xy" scrollbar-x="false" scrollbar-y="false"
+              zooming="true" min-zoom="{{zoomMin}}" style="width: 100%; height: 100%"
+              delegate-handle="scrollHandle{{$index}}" on-scroll="updateSlideStatus(activeSlide)" on-release="updateSlideStatus(activeSlide)">
+              <div class="image" style="background-image: url( {{item}} )"></div>
+          </ion-scroll>
+      </ion-slide>
+    </ion-slide-box> -->
+
+      <div class="slides-counter" ng-class="hideHeader ? 'hidden-counter' : 'show-counter'">
+          <button class="button button-medium button-clear button-light">{{1*activeSlide+1|number}} of {{numberOfImgs}}</button>
+      </div>
+
+  </ion-content>
+
+</ion-view>

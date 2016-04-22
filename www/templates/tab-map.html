@@ -1,0 +1,38 @@
+<style type="text/css">
+input.search-field,label.search-field {
+  background-color: white; 
+}
+input.search-field {
+	width: 100%;
+}
+</style>
+<ion-view>
+
+		<ion-nav-buttons side="primary">
+			<!-- show when user taps search -->
+			<div class="bar bar-header" style="z-index:100;" ng-show="showSearchBox == true">
+			  <label class="item-input-wrapper item-input-inset search-field">
+			    <i class="icon ion-ios-search placeholder-icon"></i>
+			    <input class="search-field" type="search" placeholder="Search" >
+			  </label>
+			  <button class="button button-clear" ng-click="searchBox()">
+			    Cancel
+			  </button>
+			</div>
+
+			<!-- default options, hide buttons when user taps on search -->
+			<button class="button button-clear" style="margin-left:10px;" ng-show="showSearchBox == false">1 mi</button>
+			<button class="button button-clear button-assertive" style="margin-left:20px;" ng-show="showSearchBox == false">3 mi</button>
+			<button class="button button-clear button-assertive" style="margin-left:20px;" ng-show="showSearchBox == false">10 mi</button>
+		</ion-nav-buttons>
+
+		<!-- default option, hides when user taps on it-->
+		<ion-nav-buttons side="right">
+			<button class="button button-clear button-assertive" ng-click="searchBox()" ng-show="showSearchBox == false"><i class="icon ion-ios-search-strong"></i></button>
+		</ion-nav-buttons>
+
+		<ion-nav-title></ion-nav-title>
+	<ion-content ng-init="init()">
+		<div id="map" data-tap-disabled="true"></div>
+	</ion-content>
+</ion-view>

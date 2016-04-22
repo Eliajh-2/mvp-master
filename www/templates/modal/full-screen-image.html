@@ -1,0 +1,10 @@
+<ion-modal-view class="image-modal">
+
+    <ion-slide-box delegate-handle="fullScreenImagesSlideBox" show-pager="false">
+      <ion-slide ng-repeat="item in allImgs" style="background-color: white;">
+          <img ng-src="{{item}}" class="fullscreen-image" />
+      </ion-slide>
+    </ion-slide-box>
+    <div class="button button-clear" ng-click="closeFullScreenModal()" style="top:30px;"><span class="icon ion-close"></span></div>
+
+</ion-modal-view>

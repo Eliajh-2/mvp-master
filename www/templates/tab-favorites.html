@@ -1,0 +1,104 @@
+
+<ion-view view-title='<img src="img/tagr-logo-176x37.png" class="header-logo" />'>
+	<div class="button-bar padding favorites" ng-if="isLoggedIn()">
+		<a bar-select="button.value" ng-repeat="button in favoritesFilters" ng-model="data.currentSelected" ng-click="loadFavoritesList(button.value);">{{button.text}}</a>
+	</div>
+		
+	<ion-content delegate-handle="favoriteScroll"> <ng-include src="'templates/login-fragment.html'"></ng-include>
+
+
+		<div class="favorites-container" ng-if="isLoggedIn()">
+
+			<div class="favorites-content-container">
+
+				<div ng-if="data.currentSelected == 'art'">
+					<div ng-if="favesList === null">
+							<div class="non-container">You have not favorited any <strong>Art</strong></div>
+					</div>
+					<div ng-repeat="item in favesList">
+								<div class="fav-item">
+									<div class="left">
+										<a href="#/tab/favorites/art/{{item.uid}}"><img style="float: left; background-image:url('{{item.thumb.display}}'); border-radius:10%; background-position:center center; background-size:cover; width:50px; height:50px;" /></a>
+									</div>
+
+									<div class="left">
+										<div class="artist-name">
+											<a href="#/tab/favorites/artist/{{item.artist.uid}}" style="font-size:11pt">{{item.artist.name}}</a>
+										</div>
+
+										<div class="art-info"><span ng-if="item.title !=''">{{item.title}}</span><span ng-if="item.title ==''">Untitled</span> ({{item.created_display|extractYear}})</div>
+
+									    <div>
+									    	<div class="fav-stats"><span class="fav-stats-count">{{item.likes || 0}}</span> Followers</div>
+									    </div>
+									</div>
+
+							   	 	<div class="clear"></div>
+
+								</div>
+					</div>
+				</div>
+
+
+				<div ng-if="data.currentSelected == 'artists'">
+					<div ng-if="favesList === null">
+							<div class="non-container">You have not favorited any <strong>Artists</strong></div>
+					</div>
+					<div ng-repeat="item in favesList">
+							<div class="fav-item">
+								<div class="left">
+									<a href="#/tab/favorites/artist/{{item.id}}/{{artist.id}}"><img style="float: left; background-image:url('{{item.artistPic}}'); border-radius:50%; background-position:center center; background-size:cover; width:35px; height:35px;" /></a>
+								</div>
+								<div class="left fav-info-container">
+									<div class="fav-name"><a href="#/tab/favorites/artist/{{item.id}}">{{item.artist}}</a></div>
+
+									<div class="fav-home"><i class="icon ion-location"></i> {{item.city}}, {{item.country}}</div>
+
+								    <div>
+								    	<div class="fav-stats"><span class="fav-stats-count">84</span> art pieces</div>
+								    	<div class="fav-stats"><span class="fav-stats-count">429</span> followers</div>
+								    	<!-- <div class="fav-stats"><span class="fav-stats-count">179</span> times tagd</div> -->
+								    </div>
+
+								</div>
+						   	 	<div class="clear"></div>
+
+							</div>
+					</div>
+				</div>
+
+
+				<div ng-if="data.currentSelected == 'fans'">
+					<div ng-if="favesList === null">
+							<div class="non-container">You have not favorited any other <strong>Tagrs</strong></div>
+					</div>
+					<div ng-repeat="item in favesList">
+							<div class="fav-item">
+								<div class="left">
+									<a href="#/tab/favorites/artist/{{art.id}}"><img style="float: left; background-image:url('img/temp/run/Profile_pic.jpg'); border-radius:50%; background-position:center center; background-size:cover; width:35px; height:35px;" /></a>
+								</div>
+								<div class="left fav-info-container">
+									<div class="fav-name">Artist Name</div>
+
+									<div class="fav-home"><i class="icon ion-location"></i> {{item.city}}, {{item.country}}</div>
+
+								    <div>
+								    	<!-- <div class="fav-stats"><span class="fav-stats-count">84</span> art pieces</div> -->
+								    	<div class="fav-stats"><span class="fav-stats-count">429</span> Followers</div>
+								    	<!-- <div class="fav-stats"><span class="fav-stats-count">179</span> times tagd</div> -->
+								    </div>
+
+								</div>
+						   	 	<div class="clear"></div>
+
+							</div>
+					</div>
+				</div>
+			</div><!-- close favorites content container -->
+		</div>
+
+      <div class="tab-bumper"> </div>
+
+	</ion-content>
+
+</ion-view>

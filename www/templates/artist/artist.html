@@ -1,0 +1,64 @@
+<ion-view view-title='<img src="img/tagr-logo-176x37.png" class="header-logo" />'>
+
+	<ion-content has-header="true" has-subheader="true">
+
+		<div class="artist-profile-wrapper">
+			<div class="artist-profile-container">
+				<div class="artist-action-btns"></div>
+
+				<div class="artist-profile">
+					<div class="artist-photo"><img style="background-image:url('{{artist.photo.display}}'); border-radius:50%; background-position:center center; background-size:cover; width:140px; height:140px;"></div>
+				</div>
+
+				<div class="artist-action-btns">
+					<div class="artist-fav-btn-container"><i class="icon artist-fav-btn" ng-class="(isFave == true) ? 'ion-android-favorite' : 'ion-android-favorite-outline'" ng-click="favorites({{artist.uid}})"></i></div>
+					<div class="artist-share-btn-container"><i class="icon ion-ios-upload-outline artist-share-btn"></i></div>
+				</div>
+				<div class="clear"></div>
+			</div>
+
+			<div class="artist-details">
+				<div class="artist-detail-name">{{artist.name}}</div>
+				<div class="artist-home" ng-if="artist.city && artist.country"><i class="icon ion-location"></i> <a href="#">{{artist.city}}, {{artist.country}}</a></div>
+				<div class="" ng-if="artist.website != ''"><a href="#">{{artist.website}}</a></div>
+				<div class="" ng-if="artist.extra_data.twitter != ''"><a href="#">Twitter: {{artist.extra_data.twitter}}</a></div>
+				<div class="" ng-if="artist.extra_data.facebook != ''"><a href="#">Facebook: {{artist.extra_data.facebook}}</a></div>
+				<div class="" ng-if="artist.extra_data.instagram != ''"><a href="#">Instagram: {{artist.extra_data.instagram}}</a></div>
+			</div>
+
+			<!-- <div class="right">
+			     <button class="button button-clear button-icon icon ion-ios-upload-outline" ng-click="openShareModal($event);"></button>
+				 <button class="button button-clear button-icon icon ion-ios-heart favorite-heart" ng-click="addToFavorites({{art.id}})" on-icon="button-stable" off-icon="button-assertive" icon-switcher></button>
+			</div> -->
+
+			<div class="detail-box" style="width:50%">
+				<div class="count">{{artist.images || 0}}</div>
+				<div class="count-category">Pieces</div>
+			</div>
+			<div class="detail-box" style="width:50%">
+				<div class="count">{{artist.followers || 0}}</div>
+				<div class="count-category">Following Me</div>
+			</div>
+<!-- 			<div class="detail-box" style="width:35%">
+				<div class="count">{{artist.views || 1}}</div>
+				<div class="count-category">Views</div>
+			</div>
+ -->			<div class="clear"></div>
+
+		</div>
+
+	      <div class="row no-padding" ng-repeat="art in artwork" ng-if="$index % 3 === 0">
+	          <div class="col col-33" ng-if="$index < artwork.length">
+	              <a  href="#/tab/feed/art/{{artwork[$index].uid}}"><img ng-src="{{artwork[$index].thumb.display}}" class="feed-thumbnail" /></a>
+	          </div>
+	          <div class="col col-33" ng-if="$index + 1 < artwork.length">
+	              <a  href="#/tab/feed/art/{{artwork[$index + 1].uid}}"><img ng-src="{{artwork[$index + 1].thumb.display}}" class="feed-thumbnail"  /></a>
+	          </div>
+	          <div class="col col-33" ng-if="$index + 2 < artwork.length">
+	              <a  href="#/tab/feed/art/{{artwork[$index + 2].uid}}"><img ng-src="{{artwork[$index + 2].thumb.display}}" class="feed-thumbnail"  /></a>
+	          </div>
+	      </div>
+
+	</ion-content>
+
+</ion-view>

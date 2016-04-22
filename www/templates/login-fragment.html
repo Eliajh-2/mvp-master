@@ -1,0 +1,34 @@
+<div class="login-container" ng-if="!isLoggedIn()">
+
+    <div class="login-content">
+        <img src="img/tagr-logo-270x227.png" class="tagr-logo">
+        <p class="heavy-copy">This section requires you to log in.<br/>
+        <span class="italics-copy">See you on the inside!</span>
+        </p>
+    </div>
+    <!-- FIRST LOGIN SCREEN -->
+    <div class="login-buttons">
+        <div class="row">
+            <div class="col">
+                <p class="heavy-copy login-padding">Login using:</p>
+            </div>
+        </div>
+
+        <div class="row padding">
+            <div class="col halign-center">
+                <a class="button custom-button-facebook" ng-click="login('facebook', false)"></a>
+                <span class="social-name">Facebook</span>
+            </div>
+            <div class="col halign-center">
+                <a class="button custom-button-twitter-soon"></a>
+                <span class="social-name-gray">Twitter</span>
+            </div>
+            <div class="col halign-center">
+                <a class="button custom-button-instagram"></a>
+                <span class="social-name-gray">Instagram</span>
+            </div>
+
+        </div>
+    </div>
+
+</div>

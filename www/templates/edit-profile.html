@@ -1,0 +1,73 @@
+<ion-modal-view view-title='<img src="img/tagr-logo-176x37.png" class="header-logo" />' hide-back-button="true">
+
+	<ion-content class="padding">
+
+		<button class="button button-clear edit-profile-cancel" ng-controller="EditProfileCtrl" ng-click="cancelEdit()">Cancel</button>
+		<button class="button button-clear edit-profile-save" ng-controller="EditProfileCtrl" ng-click="saveEdit()">Save</button>
+
+		<div class="clear"></div>
+
+		<div class="artist-profile-wrapper">
+			<div class="artist-profile-container">
+				<div class="artist-action-btns"></div>
+
+				<div class="artist-profile">
+					<div class="artist-photo"><img
+							style="border-radius:50%; background-position:center center; background-size:cover; width:70px; height:70px;"
+							ng-src="{{profile.profilePic}}"></div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="edit-btn-container">
+			<div style="float:left"><button class="button button-block button-stable upload-photo-btn" ng-click="selectPicture()"><span class="tagr-red">Upload photo</span></button></div>
+			<div style="float:right"><button class="button button-block button-stable take-photo-btn" ng-click="takePicture()"><span class="tagr-red">Take photo</span></button></div>
+			<div class="clear"></div>
+		</div>
+
+		<div class="edit-profile-info-container">
+			<div class="edit-profile-row">
+				<div class="edit-profile-label">User Name</div>
+				<div class="edit-profile-data">
+		            <input type="text" placeholder="{{ (profile.firstname + ' ' + profile.lastname) }} ">
+				</div>
+				<div class="clear"></div>
+			</div>
+
+			<div class="edit-profile-row">
+				<div class="edit-profile-label">Location</div>
+				<div class="edit-profile-data">
+					 <input type="text" placeholder="{{profile.location}}">
+				</div>
+				<div class="clear"></div>
+			</div>
+
+			<div class="edit-profile-row">
+				<div class="edit-profile-label">Email</div>
+				<div class="edit-profile-data">
+					 <input type="text" placeholder="{{profile.email}}">
+				</div>
+				<div class="clear"></div>
+			</div>
+
+			<div class="edit-profile-row">
+				<div class="edit-profile-label">Paypal Email</div>
+				<div class="edit-profile-data">
+					 <input type="text" placeholder="{{profile.paypalEmail}}">
+				</div>
+				<div class="clear"></div>
+			</div>
+
+			<div class="edit-profile-row" style="display:none">
+				<div class="edit-profile-checkbox">
+					<ion-checkbox ng-model="isChecked">I agree to let Tagr use my art in marketing</ion-checkbox>
+				</div>
+				<div class="clear"></div>
+			</div>
+			
+
+		</div>
+
+	</ion-content>
+</ion-modal-view>

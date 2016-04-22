@@ -1,0 +1,60 @@
+<ion-view view-title='<img src="img/tagr-logo-176x37.png" class="header-logo" />'>
+
+	<ion-content has-header="true" has-subheader="true">
+
+		<div class="artist-profile-wrapper">
+			<div class="artist-profile-container">
+				<div class="artist-action-btns"></div>
+
+				<div class="artist-profile">
+					<div class="artist-photo"><img style="border-radius:50%; background-position:center center; background-size:cover; width:70px; height:70px;" ng-src="{{profilePic}}"></div>
+				</div>
+
+				<div class="artist-action-btns">
+					<div class="artist-share-btn-container"><a href="#"><i class="icon ion-ios-upload-outline artist-share-btn"></i></a></div>
+				</div>
+				<div class="clear"></div>
+			</div>
+
+			<div class="artist-details">
+				<div class="artist-detail-name">{{profile.name}}</div>
+<!-- 				<div class="artist-home"><i class="icon ion-location"></i> <a href="#">{{artist.city}}, {{artist.country}}</a></div> -->
+			</div>
+		</div>
+
+		<div class="list padding">
+
+		    <div>
+		    	<div class="owner-stats">Favorite art pieces</div>
+		    	<div class="owner-stats-count">147</div>
+		    	<div class="clear"></div>
+		    </div>
+
+		    <div class="horizontal-line"><hr></div>
+
+		    <div>
+		    	<div class="owner-stats">Favorite artists</div>
+		    	<div class="owner-stats-count">20</div>
+		    	<div class="clear"></div>
+		    </div>
+
+		    <div class="horizontal-line"><hr></div>
+
+		    <div>
+		    	<div class="owner-stats">Art pieces tagd</div>
+		   	 	<div class="owner-stats-count">31</div>
+		   	 	<div class="clear"></div>
+		    </div>
+
+		    <div class="horizontal-line"><hr></div>
+
+		    <div>
+		    	<div class="owner-stats">Artists in common (only show this when viewing another fan's profile, not on own profile)</div>
+		    	<div class="owner-stats-count">5</div>
+		    	<div class="clear"></div>
+		    </div>
+
+		</div>
+	</ion-content>
+
+</ion-view>

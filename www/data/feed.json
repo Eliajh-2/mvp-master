@@ -1,0 +1,1556 @@
+[
+		{
+		    "id": 1,
+		    "type": "art", 
+		    "title": "Phrenology",
+		    "artists": [
+		    				{
+		    					"id": 1,
+		    					"name": "RUN",
+		    					"profilePic": "img/temp/run/Profile_pic.jpg",
+		    					"city": "East London",
+            					"country": "UK"
+		    				}
+		    		   ],
+		    "src": "img/temp/run/primary.jpg",
+		    "year": "2015",
+		    "imgs": [ 
+		              "img/temp/run/primary.jpg",
+		              "img/temp/run/img1.jpg",
+              		  "img/temp/run/img2.jpg",
+              		  "img/temp/run/img3.jpg",
+              		  "img/temp/run/img4.jpg",
+              		  "img/temp/run/img5.jpg"
+              		],
+            "lat": "51.507351",
+            "long": "-0.127758",
+            "city": "East London",
+            "country": "UK",
+            "mapIcon": "img/temp/run/map_icon.png"
+		},
+		{
+		    "id": 2,
+		    "type": "art", 
+		    "title": "Trust iCon",
+		    "artists": [
+		    				{
+		    					"id": 2,
+		    					"name": "Shine Box",
+		    					"profilePic": "img/temp/trust-icon/profile_pic.jpg",
+					            "city": "East London",
+					            "country": "UK"
+		    				}
+		    		   ],
+		    "src": "img/temp/trust-icon/primary.jpg",
+		    "year": "2015",
+		    "imgs": [ 
+		              "img/temp/trust-icon/primary.jpg",
+		              "img/temp/trust-icon/img1.jpg",
+              		  "img/temp/trust-icon/img2.jpg",
+              		  "img/temp/trust-icon/img3.jpg",
+              		  "img/temp/trust-icon/img4.jpg",
+              		  "img/temp/trust-icon/img5.jpg",
+              		  "img/temp/trust-icon/img6.jpg",
+              		  "img/temp/trust-icon/img7.jpg"
+              		],
+            "lat": "51.526974",
+            "long": "-0.06672",
+            "city": "East London",
+            "country": "UK",
+            "mapIcon": "img/temp/trust-icon/map_icon.png"
+		},
+		{
+		    "id": 3,
+		    "type": "art", 
+		    "title": "",
+		    "artists": [
+		    				{
+		    					"id": 3,
+		    					"name": "Urben",
+		    					"profilePic": "img/temp/urben/profile_pic.jpg",
+					            "city": "Berlin",
+					            "country": "Germany"
+		    				}
+		    		   ],
+		    "src": "img/temp/urben/primary.jpg",
+		    "year": "2015",
+		    "imgs": [ 
+		              "img/temp/urben/primary.jpg",
+		              "img/temp/urben/img1.jpg",
+              		  "img/temp/urben/img2.jpg",
+              		  "img/temp/urben/img3.jpg",
+              		  "img/temp/urben/img4.jpg",
+              		  "img/temp/urben/img5.jpg"
+              		],
+            "lat": "52.520007",
+            "long": "13.4049554",
+            "city": "Berlin",
+            "country": "Germany",
+            "mapIcon": "img/temp/urben/map_icon.png",
+            "comments": "the artist put the caption 'really' on fb"
+		},
+		{
+		    "id": 4,
+		    "type": "art", 
+		    "title": "#11",
+		    "artists": [
+		    				{
+		    					"id": 4,
+		    					"name": "A Common Name",
+		    					"profilePic": "img/temp/a-common-name/profile_pic.jpg",
+					            "city": "LA",
+					            "country": "USA"
+		    				}
+		    		   ],
+		    "src": "img/temp/a-common-name/primary.jpg",
+		    "year": "2015",
+		    "imgs": [ 
+		              "img/temp/a-common-name/primary.jpg",
+		              "img/temp/a-common-name/img1.jpg",
+              		  "img/temp/a-common-name/img2.jpg",
+              		  "img/temp/a-common-name/img3.jpg",
+              		  "img/temp/a-common-name/img4.jpg"
+              		],
+            "lat": "34.034882",
+            "long": "118.231666",
+            "city": "LA",
+            "country": "USA",
+            "mapIcon": "img/temp/a-common-name/map_icon.png"
+		},
+		{
+		    "id": 5,
+		    "type": "art", 
+		    "title": "Coco Chanel",
+		    "artists": [
+		    				{
+		    					"id": 5,
+		    					"name": "David Flores",
+		    					"profilePic": "img/temp/david-flores/profile_pic.jpg",
+					            "city": "LA",
+					            "country": "USA"
+		    				}
+		    		   ],
+		    "src": "img/temp/david-flores/primary.jpg",
+		    "year": "2015",
+		    "imgs": [ 
+		              "img/temp/david-flores/primary.jpg",
+		              "img/temp/david-flores/img1.jpg",
+              		  "img/temp/david-flores/img2.jpg",
+              		  "img/temp/david-flores/img3.jpg"
+              		],
+            "lat": "34.073620",
+            "long": "-118.400356",
+            "city": "LA",
+            "country": "USA",
+            "mapIcon": "img/temp/david-flores/map_icon.png"
+		},
+		{
+		    "id": 6,
+		    "type": "art", 
+		    "title": "La Reina de Thai Town",
+		    "artists": [
+		    				{
+		    					"id": 6,
+		    					"name": "El Mac",
+		    					"profilePic": "img/temp/el-mac/profile_pic.jpg",
+					            "city": "LA",
+					            "country": "USA"
+		    				},
+		    				{
+		    					"id": 7,
+		    					"name": "Retna",
+		    					"profilePic": "img/temp/retna/profile_pic.jpg",
+					            "city": "LA",
+					            "country": "USA"
+		    				},		    				{
+				"id": 8,
+				"name": "Talanova",
+				"profilePic": "img/temp/retna/profile_pic.jpg",
+				"city": "LA",
+				"country": "USA"
+			  }
+		    		   ],
+		    "src": "img/temp/el-mac/primary.jpg",
+		    "year": "2015",
+		    "imgs": [ 
+		              "img/temp/el-mac/primary.jpg",
+		              "img/temp/el-mac/img1.jpg",
+              		  "img/temp/el-mac/img2.jpg",
+              		  "img/temp/el-mac/img3.jpg",
+					  "img/temp/el-mac/img4.jpg",
+              		  "img/temp/el-mac/img5.jpg",
+              		  "img/temp/el-mac/img6.jpg",
+              		  "img/temp/el-mac/img7.jpg",
+              		  "img/temp/el-mac/img8.jpg"
+              		],
+            "lat": "34.101582",
+            "long": "-118.313445",
+            "city": "LA",
+            "country": "USA",
+            "mapIcon": "img/temp/el-mac/map_icon.png"
+		},
+		{
+		    "id": 7,
+		    "type": "art", 
+		    "title": "Not known (scars)",
+		    "artists": [
+		    				{
+		    					"id": 8,
+		    					"name": "Morley",
+		    					"profilePic": "img/temp/morley/profile_pic.jpg",
+					            "city": "LA",
+					            "country": "USA"
+		    				}
+		    		   ],
+		    "src": "img/temp/morley/primary.jpg",
+		    "year": "2015",
+		    "imgs": [ 
+		              "img/temp/morley/primary.jpg",
+		              "img/temp/morley/img1.jpg",
+              		  "img/temp/morley/img2.jpg",
+              		  "img/temp/morley/img3.jpg",
+					  "img/temp/morley/img4.jpg",
+              		  "img/temp/morley/img5.jpg",
+              		  "img/temp/morley/img6.jpg",
+              		  "img/temp/morley/img7.jpg",
+              		  "img/temp/morley/img8.jpg"
+              		],
+            "lat": "34.106331",
+            "long": "-118.284820",
+            "city": "LA",
+            "country": "USA",
+            "mapIcon": "img/temp/morley/map_icon.png"
+		},
+		{
+		    "id": 8,
+		    "type": "art", 
+		    "title": "Painting for the Pasadena Museum of California Art",
+		    "artists": [
+		    				{
+		    					"id": 7,
+		    					"name": "Retna",
+		    					"profilePic": "img/temp/retna/profile_pic.jpg",
+					            "city": "LA",
+					            "country": "USA"
+		    				}
+		    		   ],
+		    "src": "img/temp/retna/primary.jpg",
+		    "year": "2015",
+		    "imgs": [ 
+		              "img/temp/retna/primary.jpg",
+		              "img/temp/retna/img1.jpg",
+              		  "img/temp/retna/img2.jpg",
+              		  "img/temp/retna/img3.jpg",
+					  "img/temp/retna/img4.jpg",
+              		  "img/temp/retna/img5.jpg"
+              		],
+            "lat": "34.146862",
+            "long": "-118.140221",
+            "city": "Pasadena",
+            "country": "USA",
+            "mapIcon": "img/temp/retna/map_icon.png"
+		},
+		{
+		    "id": 9,
+		    "type": "art", 
+		    "title": "",
+		    "artists": [
+		    				{
+		    					"id": 9,
+		    					"name": "Tristan Eaton",
+		    					"profilePic": "img/temp/tristan-eaton/profile_pic.png",
+					            "city": "LA",
+					            "country": "USA"
+		    				}
+		    		   ],
+		    "src": "img/temp/tristan-eaton/primary.jpg",
+		    "year": "2015",
+		    "imgs": [ 
+		              "img/temp/tristan-eaton/primary.jpg",
+		              "img/temp/tristan-eaton/img1.jpg",
+              		  "img/temp/tristan-eaton/img2.jpg",
+              		  "img/temp/tristan-eaton/img3.jpg",
+					  "img/temp/tristan-eaton/img4.jpg",
+              		  "img/temp/tristan-eaton/img5.jpg",
+              		  "img/temp/tristan-eaton/img6.jpg"
+              		],
+            "lat": "34.033383",
+            "long": "-118.376874",
+            "city": "LA",
+            "country": "USA",
+            "mapIcon": "img/temp/tristan-eaton/map_icon.png"
+		},
+		{
+		    "id": 10,
+		    "type": "art", 
+		    "title": "",
+		    "artists": [
+		    				{
+		    					"id": 10,
+		    					"name": "WRDSMTH",
+		    					"profilePic": "img/temp/wrdsmth/profile_pic.jpg",
+					            "city": "LA",
+					            "country": "USA"
+		    				}
+		    		   ],
+		    "src": "img/temp/wrdsmth/primary.jpg",
+		    "year": "2015",
+		    "imgs": [ 
+		              "img/temp/wrdsmth/primary.jpg",
+		              "img/temp/wrdsmth/img1.jpg",
+              		  "img/temp/wrdsmth/img2.jpg",
+              		  "img/temp/wrdsmth/img3.jpg",
+					  "img/temp/wrdsmth/img4.jpg",
+              		  "img/temp/wrdsmth/img5.jpg",
+              		  "img/temp/wrdsmth/img6.jpg"
+              		],
+            "lat": "34.083790",
+            "long": "-118.361504",
+            "city": "LA",
+            "country": "USA",
+            "mapIcon": "img/temp/wrdsmth/map_icon.png"
+		},
+		{
+		    "id": 11,
+		    "type": "art", 
+		    "title": "Love Her, hate Him",
+		    "artists": [
+		    				{
+		    					"id": 11,
+		    					"name": "D*Face",
+		    					"profilePic": "img/temp/d-face/profile_pic.jpg",
+					            "city": "NY",
+					            "country": "USA"
+		    				}
+		    		   ],
+		    "src": "img/temp/d-face/primary.jpg",
+		    "year": "2015",
+		    "imgs": [ 
+		              "img/temp/d-face/primary.jpg",
+		              "img/temp/d-face/img1.jpg",
+              		  "img/temp/d-face/img2.jpg",
+              		  "img/temp/d-face/img3.jpg",
+					  "img/temp/d-face/img4.jpg",
+              		  "img/temp/d-face/img5.jpg"
+              		],
+            "lat": "40.723301",
+            "long": "-74.003246",
+            "city": "NY",
+            "country": "USA",
+            "mapIcon": "img/temp/d-face/map_icon.png"
+		},
+		{
+		    "id": 12,
+		    "type": "art", 
+		    "title": "Fencer in motion",
+		    "artists": [
+		    				{
+		    					"id": 12,
+		    					"name": "Li-Hill",
+		    					"profilePic": "img/temp/li-hill/profile_pic.jpg",
+					            "city": "Jersey City",
+					            "country": "USA"
+		    				}
+		    		   ],
+		    "src": "img/temp/li-hill/primary.jpg",
+		    "year": "2015",
+		    "imgs": [ 
+		              "img/temp/li-hill/primary.jpg",
+		              "img/temp/li-hill/img1.jpg",
+              		  "img/temp/li-hill/img2.jpg",
+              		  "img/temp/li-hill/img3.jpg",
+					  "img/temp/li-hill/img4.jpg",
+              		  "img/temp/li-hill/img5.jpg"
+              		],
+            "lat": "40.728157",
+            "long": "-74.077642",
+            "city": "Jersey City",
+            "country": "USA",
+            "mapIcon": "img/temp/li-hill/map_icon.png"
+		},
+		{
+		    "id": 13,
+		    "type": "art", 
+		    "title": "V Day Kiss",
+		    "artists": [
+		    				{
+		    					"id": 13,
+		    					"name": "Kobra",
+		    					"profilePic": "img/temp/kobra/profile_pic.jpg",
+					            "city": "NY",
+					            "country": "USA"
+		    				}
+		    		   ],
+		    "src": "img/temp/kobra/primary.jpg",
+		    "year": "2015",
+		    "imgs": [ 
+		              "img/temp/kobra/primary.jpg",
+		              "img/temp/kobra/img1.jpg",
+              		  "img/temp/kobra/img2.jpg",
+              		  "img/temp/kobra/img3.jpg",
+					  "img/temp/kobra/img4.jpg"
+              		],
+            "lat": "40.748982",
+            "long": "-74.003246",
+            "city": "NY",
+            "country": "USA",
+            "mapIcon": "img/temp/kobra/map_icon.png"
+		},
+		{
+		    "id": 14,
+		    "type": "art", 
+		    "title": "Ai WeiWei",
+		    "artists": [
+		    				{
+		    					"id": 14,
+		    					"name": "Damon Martin",
+		    					"profilePic": "img/temp/damon-martin/profile_pic.jpg",
+					            "city": "LA",
+					            "country": "USA"
+		    				}
+		    		   ],
+		    "src": "img/temp/damon-martin/primary.jpg",
+		    "year": "2015",
+		    "imgs": [ 
+		              "img/temp/damon-martin/primary.jpg",
+		              "img/temp/damon-martin/img1.jpg"
+              		],
+            "lat": "34.045620",
+            "long": "-118.236664",
+            "city": "LA",
+            "country": "USA",
+            "mapIcon": "img/temp/damon-martin/map_icon.png"
+		},
+		{
+		    "id": 15,
+		    "type": "art", 
+		    "title": "Elephant Mural",
+		    "artists": [
+		    				{
+		    					"id": 14,
+		    					"name": "Damon Martin",
+		    					"profilePic": "img/temp/damon-martin/profile_pic.jpg",
+					            "city": "LA",
+					            "country": "USA"
+		    				}
+		    		   ],
+		    "src": "img/temp/damon-martin1/primary.jpg",
+		    "year": "2015",
+		    "imgs": [ 
+		              "img/temp/damon-martin1/primary.jpg",
+		              "img/temp/damon-martin1/img1.jpg",
+              		  "img/temp/damon-martin1/img2.jpg"
+              		],
+            "lat": "34.045564",
+            "long": "-118.237056",
+            "city": "LA",
+            "country": "USA",
+            "mapIcon": "img/temp/damon-martin1/map_icon.png",
+            "description": "These elephants are still in crisis. Their population is in crisis. Poaching is rampant. I am trying to bring awareness to the fact that the United States is still the number two consumer of ivory in the world. These elephants, for me, will represent a commitment towards community, family, loyalty, and also the lack of awareness of elephants themselves and how they relate to eachother. In recent history we have come to learn how theyíre actually communicating, which I find shocking; that we went to the moon in the 60's and we're just now discovering how elephants are communicating. Up to a couple of miles away, they can communicate through a very low frequency; humans can't hear it. It's pretty shocking that we know so little about another species. I know that the poachers are getting about $500 for a pair of tusks. They're destroying this amazing, incredible, and highly intelligent animal for $500 for just maybe 3% of its overall mass. Itís not only destroying the animal. Itís destroying the community and who we are as a species."
+		},
+		{
+		    "id": 16,
+		    "type": "art", 
+		    "title": "Endangered Species",
+		    "artists": [
+		    				{
+		    					"id": 15,
+		    					"name": "Emily Winters",
+		    					"profilePic": "img/temp/emily-winters/profile_pic.jpg",
+					            "city": "LA",
+					            "country": "USA"
+		    				}
+		    		   ],
+		    "src": "img/temp/emily-winters/primary.jpg",
+		    "year": "2015",
+		    "imgs": [ 
+		              "img/temp/emily-winters/primary.jpg",
+		              "img/temp/emily-winters/img1.jpg",
+              		  "img/temp/emily-winters/img2.jpg"
+              		],
+            "lat": "33.991195",
+            "long": "-118.477114",
+            "city": "LA",
+            "country": "USA",
+            "mapIcon": "img/temp/emily-winters/map_icon.png"
+		},
+		{
+		    "id": 17,
+		    "type": "art", 
+		    "title": "Dolores del Rio",
+		    "artists": [
+		    				{
+		    					"id": 16,
+		    					"name": "Alfredo de Batuc",
+		    					"profilePic": "img/temp/alfredo-batuc/profile_pic.jpg",
+					            "city": "LA",
+					            "country": "USA"
+		    				}
+		    		   ],
+		    "src": "img/temp/alfredo-batuc/primary.jpg",
+		    "year": "2015",
+		    "imgs": [ 
+		              "img/temp/alfredo-batuc/primary.jpg",
+		              "img/temp/alfredo-batuc/img1.jpg",
+              		  "img/temp/alfredo-batuc/img2.jpg"
+              		],
+            "lat": "34.101579",
+            "long": "-118.332053",
+            "city": "LA",
+            "country": "USA",
+            "mapIcon": "img/temp/alfredo-batuc/map_icon.png"
+		},
+		{
+		    "id": 18,
+		    "type": "art", 
+		    "title": "Orange 20 Bikes",
+		    "artists": [
+		    				{
+		    					"id": 17,
+		    					"name": "Cache",
+		    					"profilePic": "img/temp/cache/profile_pic.jpg",
+					            "city": "LA",
+					            "country": "USA"
+		    				}
+		    		   ],
+		    "src": "img/temp/cache/primary.jpg",
+		    "year": "2015",
+		    "imgs": [ 
+		              "img/temp/cache/primary.jpg",
+		              "img/temp/cache/img1.jpg"
+              		],
+            "lat": "34.083808",
+            "long": "-118.295138",
+            "city": "LA",
+            "country": "USA",
+            "mapIcon": "img/temp/cache/map_icon.png"
+
+		},
+		{
+		    "id": 19,
+		    "type": "art", 
+		    "title": "Crossroads",
+		    "artists": [
+		    				{
+		    					"id": 18,
+		    					"name": "CITA SADELI 'CHELOVE'",
+		    					"profilePic": "img/temp/cita/profile_pic.jpg",
+					            "city": "Washington, DC",
+					            "country": "USA"
+		    				}
+		    		   ],
+		    "src": "img/temp/cita/primary.jpg",
+		    "year": "2015",
+		    "imgs": [ 
+		              "img/temp/cita/primary.jpg",
+		              "img/temp/cita/img1.jpg"
+              		],
+            "lat": "38.918394",
+            "long": "-118.332053",
+            "city": "Washington, DC",
+            "country": "USA",
+            "mapIcon": "img/temp/cita/map_icon.png"
+		},
+		{
+		    "id": 20,
+		    "type": "art", 
+		    "title": "The Watcher",
+		    "artists": [
+		    				{
+		    					"id": 19,
+		    					"name": "Words Beats and Life",
+		    					"profilePic": "img/temp/words-beats-life/profile_pic.jpg",
+					            "city": "Washington, DC",
+					            "country": "USA"
+		    				}
+		    		   ],
+		    "src": "img/temp/words-beats-life/primary.jpg",
+		    "year": "2015",
+		    "imgs": [ 
+		              "img/temp/words-beats-life/primary.jpg",
+		              "img/temp/words-beats-life/img1.jpg",
+              		  "img/temp/words-beats-life/img2.jpg"
+              		],
+            "lat": "38.925116",
+            "long": "-77.031813",
+            "city": "Washington, DC",
+            "country": "USA",
+            "mapIcon": "img/temp/words-beats-life/map_icon.png"
+		},
+		{
+		    "id": 21,
+		    "type": "art", 
+		    "title": "Sambhavna",
+		    "artists": [
+		    				{
+		    					"id": 20,
+		    					"name": "Swoon",
+		    					"profilePic": "img/temp/swoon/profile_pic.jpg",
+					            "city": "Brooklyn, NY",
+					            "country": "USA"
+		    				}
+		    		   ],
+		    "src": "img/temp/swoon/primary.jpg",
+		    "year": "2015",
+		    "imgs": [ 
+		              "img/temp/swoon/primary.jpg",
+		              "img/temp/swoon/img1.jpg",
+              		  "img/temp/swoon/img2.jpg",
+		              "img/temp/swoon/img3.jpg",
+		              "img/temp/swoon/img4.jpg",
+		              "img/temp/swoon/img5.jpg",
+		              "img/temp/swoon/img6.jpg",
+		              "img/temp/swoon/img7.jpg",
+		              "img/temp/swoon/img8.jpg",
+		              "img/temp/swoon/img9.jpg"
+              		],
+            "lat": "40.678178",
+            "long": "-73.944158",
+            "city": "Brooklyn, NY",
+            "country": "USA",
+            "mapIcon": "img/temp/swoon/map_icon.png"
+		},
+		{
+		    "id": 22,
+		    "type": "art", 
+		    "title": "Untitled",
+		    "artists": [
+		    				{
+		    					"id": 21,
+		    					"name": "Hyuro",
+		    					"profilePic": "img/temp/hyuro/profile_pic.jpg",
+					            "city": "Albal, Valencia",
+					            "country": "Spain"
+		    				}
+		    		   ],
+		    "src": "img/temp/hyuro/primary.jpg",
+		    "year": "2015",
+		    "imgs": [ 
+		              "img/temp/hyuro/primary.jpg",
+		              "img/temp/hyuro/img1.jpg",
+              		  "img/temp/hyuro/img2.jpg",
+		              "img/temp/hyuro/img3.jpg",
+		              "img/temp/hyuro/img4.jpg",
+		              "img/temp/hyuro/img5.jpg",
+		              "img/temp/hyuro/img6.jpg"
+              		],
+            "lat": "39.396377",
+            "long": "-0.413696",
+            "city": "Albal, Valencia",
+            "country": "Spain",
+            "mapIcon": "img/temp/hyuro/map_icon.png"
+
+		},
+		{
+		    "id": 23,
+		    "type": "art", 
+		    "title": "Untitled",
+		    "artists": [
+		    				{
+		    					"id": 22,
+		    					"name": "Lex and Sten",
+		    					"profilePic": "img/temp/lex-and-sten/profile_pic.jpg",
+					            "city": "Atlanta, GA",
+					            "country": "USA"
+		    				}
+		    		   ],
+		    "src": "img/temp/lex-and-sten/primary.jpg",
+		    "year": "2015",
+		    "imgs": [ 
+		              "img/temp/lex-and-sten/primary.jpg",
+		              "img/temp/lex-and-sten/img1.jpg",
+              		  "img/temp/lex-and-sten/img2.jpg",
+		              "img/temp/lex-and-sten/img3.jpg",
+		              "img/temp/lex-and-sten/img4.jpg",
+		              "img/temp/lex-and-sten/img5.jpg",
+		              "img/temp/lex-and-sten/img6.jpg",
+		              "img/temp/lex-and-sten/img7.jpg"
+              		],
+            "lat": "33.748995",
+            "long": "-84.387982",
+            "city": "Atlanta, GA",
+            "country": "USA",
+            "mapIcon": "img/temp/lex-and-sten/map_icon.png"
+		},
+		{
+		    "id": 24,
+		    "type": "art", 
+		    "title": "Untitled",
+		    "artists": [
+		    				{
+		    					"id": 23,
+		    					"name": "Seacreative",
+		    					"profilePic": "img/temp/seacreative/profile_pic.jpg",
+					            "city": "Rome",
+					            "country": "Italy"
+		    				}
+		    		   ],
+		    "src": "img/temp/seacreative/primary.jpg",
+		    "year": "2015",
+		    "imgs": [ 
+		              "img/temp/seacreative/primary.jpg",
+		              "img/temp/seacreative/img1.jpg",
+              		  "img/temp/seacreative/img2.jpg"
+              		],
+            "lat": "41.902783",
+            "long": "12.496366",
+            "city": "Rome",
+            "country": "Italy",
+            "mapIcon": "img/temp/seacreative/map_icon.png"
+		},
+		{
+		    "id": 25,
+		    "type": "art", 
+		    "title": "Tiger Rabbit",
+		    "artists": [
+		    				{
+		    					"id": 24,
+		    					"name": "Gaia",
+		    					"profilePic": "img/temp/gaia/profile_pic.jpg",
+					            "city": "Seoul",
+					            "country": "South Korea"
+		    				}
+		    		   ],
+		    "src": "img/temp/gaia/primary.jpg",
+		    "year": "2015",
+		    "imgs": [ 
+		              "img/temp/gaia/primary.jpg",
+		              "img/temp/gaia/img1.jpg",
+              		  "img/temp/gaia/img2.jpg",
+		              "img/temp/gaia/img3.jpg",
+		              "img/temp/gaia/img4.jpg",
+		              "img/temp/gaia/img5.jpg",
+		              "img/temp/gaia/img6.jpg",
+		              "img/temp/gaia/img7.jpg",		              
+		              "img/temp/gaia/img8.jpg",
+              		  "img/temp/gaia/img9.jpg"
+              		],
+            "lat": "37.566535",
+            "long": "126.977969",
+            "city": "Seoul",
+            "country": "South Korea",
+            "mapIcon": "img/temp/gaia/map_icon.png"
+		},
+		{
+		    "id": 26,
+		    "type": "art", 
+		    "title": "Untitled",
+		    "artists": [
+		    				{
+		    					"id": 25,
+		    					"name": "Jaz",
+		    					"profilePic": "img/temp/jaz/profile_pic.jpg",
+					            "city": "Buenos Aires",
+					            "country": "Argentina"
+
+		    				}
+		    		   ],
+		    "src": "img/temp/jaz/primary.jpg",
+		    "year": "2015",
+		    "imgs": [ 
+		              "img/temp/jaz/primary.jpg",
+		              "img/temp/jaz/img1.jpg",
+              		  "img/temp/jaz/img2.jpg",
+		              "img/temp/jaz/img3.jpg",
+		              "img/temp/jaz/img4.jpg",
+		              "img/temp/jaz/img5.jpg"
+              		],
+            "lat": "-34.603684",
+            "long": "-58.381559",
+            "city": "Buenos Aires",
+            "country": "Argentina",
+            "mapIcon": "img/temp/jaz/map_icon.png"
+		},
+		{
+		    "id": 29,
+		    "type": "art", 
+		    "title": "Untitled",
+		    "artists": [
+		    				{
+		    					"id": 26,
+		    					"name": "Best Ever",
+		    					"profilePic": "img/temp/best-ever/profile_pic.jpg",
+					            "city": "Buenos Aires",
+					            "country": "Argentina"
+		    				}
+		    		   ],
+		    "src": "img/temp/best-ever/primary.jpg",
+		    "year": "2015",
+		    "imgs": [ 
+		              "img/temp/best-ever/primary.jpg",
+		              "img/temp/best-ever/img1.jpg",
+              		  "img/temp/best-ever/img2.jpg",
+		              "img/temp/best-ever/img3.jpg",
+		              "img/temp/best-ever/img4.jpg",
+		              "img/temp/best-ever/img5.jpg"
+              		],
+            "lat": "-34.603684",
+            "long": "-58.381559",
+            "city": "Buenos Aires",
+            "country": "Argentina",
+            "mapIcon": "img/temp/best-ever/map_icon.png"
+		},
+		{
+		    "id": 30,
+		    "type": "art", 
+		    "title": "Untitled",
+		    "artists": [
+		    				{
+		    					"id": 27,
+		    					"name": "Becca",
+		    					"profilePic": "img/temp/becca/profile_pic.jpg",
+					            "city": "Melrose & Orange, LA",
+					            "country": "USA"
+		    				}
+		    		   ],
+		    "src": "img/temp/becca/primary.jpg",
+		    "year": "2015",
+		    "imgs": [ 
+		              "img/temp/becca/primary.jpg",
+		              "img/temp/becca/img1.jpg",
+              		  "img/temp/becca/img2.jpg",
+		              "img/temp/becca/img3.jpg"
+              		],
+            "lat": "34.047730",
+            "long": "-118.347219",
+            "city": "Melrose & Orange, LA",
+            "country": "USA",
+            "mapIcon": "img/temp/becca/map_icon.png"
+		},
+		{
+		    "id": 31,
+		    "type": "art", 
+		    "title": "Untitled",
+		    "artists": [
+		    				{
+		    					"id": 28,
+		    					"name": "Nunca",
+		    					"profilePic": "img/temp/nunca/profile_pic.jpg",
+					            "city": "Toronto",
+					            "country": "Canada"
+		    				}
+		    		   ],
+		    "src": "img/temp/nunca/primary.jpg",
+		    "year": "2015",
+		    "imgs": [ 
+		              "img/temp/nunca/primary.jpg",
+		              "img/temp/nunca/img1.jpg",
+              		  "img/temp/nunca/img2.jpg",
+		              "img/temp/nunca/img3.jpg",
+              		  "img/temp/nunca/img4.jpg",		              
+		              "img/temp/nunca/img5.jpg",
+              		  "img/temp/nunca/img6.jpg",
+		              "img/temp/nunca/img7.jpg",
+              		  "img/temp/nunca/img8.jpg",              		  
+		              "img/temp/nunca/img9.jpg",
+              		  "img/temp/nunca/img10.jpg",
+		              "img/temp/nunca/img11.jpg"
+              		],
+            "lat": "43.653226",
+            "long": "-79.383184",
+            "city": "Toronto",
+            "country": "Canada",
+            "mapIcon": "img/temp/nunca/map_icon.png"
+		},
+		{
+		    "id": 32,
+		    "type": "art", 
+		    "title": "Fox",
+		    "artists": [
+		    				{
+		    					"id": 29,
+		    					"name": "Philippe Baudelocque",
+		    					"profilePic": "img/temp/philippe-baudelocque/profile_pic.jpg",
+					            "city": "Paris",
+					            "country": "France"
+		    				}
+		    		   ],
+		    "src": "img/temp/philippe-baudelocque/primary.jpg",
+		    "year": "2015",
+		    "imgs": [ 
+		              "img/temp/philippe-baudelocque/primary.jpg",
+		              "img/temp/philippe-baudelocque/img1.jpg",
+              		  "img/temp/philippe-baudelocque/img2.jpg",
+		              "img/temp/philippe-baudelocque/img3.jpg",
+              		  "img/temp/philippe-baudelocque/img4.jpg",		              
+		              "img/temp/philippe-baudelocque/img5.jpg",
+              		  "img/temp/philippe-baudelocque/img6.jpg"
+              		],
+            "lat": "48.856614",
+            "long": "2.352222",
+            "city": "Paris",
+            "country": "France",
+            "mapIcon": "img/temp/philippe-baudelocque/map_icon.png"
+		},
+		{
+		    "id": 33,
+		    "type": "art", 
+		    "title": "Marginalized Workforce",
+		    "artists": [
+		    				{
+		    					"id": 30,
+		    					"name": "Specter",
+		    					"profilePic": "img/temp/specter/profile_pic.jpg",
+					            "city": "New York, NY",
+					            "country": "USA"
+		    				}
+		    		   ],
+		    "src": "img/temp/specter/primary.jpg",
+		    "year": "2015",
+		    "imgs": [ 
+		              "img/temp/specter/primary.jpg",
+		              "img/temp/specter/img1.jpg",
+              		  "img/temp/specter/img2.jpg",
+		              "img/temp/specter/img3.jpg",
+              		  "img/temp/specter/img4.jpg",		              
+		              "img/temp/specter/img5.jpg",
+              		  "img/temp/specter/img6.jpg",
+		              "img/temp/specter/img7.jpg"
+              		],
+            "lat": "40.712784",
+            "long": "-74.005941",
+            "city": "New York, NY",
+            "country": "USA",
+            "mapIcon": "img/temp/specter/map_icon.png"
+		},
+		{
+		    "id": 34,
+		    "type": "art", 
+		    "title": "Mutants Weeds",
+		    "artists": [
+		    				{
+		    					"id": 31,
+		    					"name": "Luzinterruptus",
+		    					"profilePic": "img/temp/luzinterruptus/profile_pic.jpg",
+					            "city": "Madrid",
+					            "country": "Spain"
+		    				}
+		    		   ],
+		    "src": "img/temp/luzinterruptus/primary.jpg",
+		    "year": "2015",
+		    "imgs": [ 
+		              "img/temp/luzinterruptus/primary.jpg",
+		              "img/temp/luzinterruptus/img1.jpg",
+              		  "img/temp/luzinterruptus/img2.jpg",
+		              "img/temp/luzinterruptus/img3.jpg",
+              		  "img/temp/luzinterruptus/img4.jpg",		              
+		              "img/temp/luzinterruptus/img5.jpg",
+              		  "img/temp/luzinterruptus/img6.jpg",
+		              "img/temp/luzinterruptus/img7.jpg",
+              		  "img/temp/luzinterruptus/img8.jpg",		              
+		              "img/temp/luzinterruptus/img9.jpg",
+              		  "img/temp/luzinterruptus/img10.jpg",
+		              "img/temp/luzinterruptus/img11.jpg"
+              		],
+            "lat": "40.416775",
+            "long": "-3.703790",
+            "city": "Madrid",
+            "country": "Spain",
+            "mapIcon": "img/temp/luzinterruptus/map_icon.png"
+		},
+		{
+		    "id": 35,
+		    "type": "art", 
+		    "title": "33 Masks",
+		    "artists": [
+		    				{
+		    					"id": 32,
+		    					"name": "Zoo Project",
+		    					"profilePic": "img/temp/zoo-project/profile_pic.jpg",
+					            "city": "Paris",
+					            "country": "France"
+		    				}
+		    		   ],
+		    "src": "img/temp/zoo-project/primary.jpg",
+		    "year": "2015",
+		    "imgs": [ 
+		              "img/temp/zoo-project/primary.jpg",
+		              "img/temp/zoo-project/img1.jpg",
+              		  "img/temp/zoo-project/img2.jpg",
+		              "img/temp/zoo-project/img3.jpg"
+              		],
+            "lat": "48.856614",
+            "long": "2.352222",
+            "city": "Paris",
+            "country": "France",
+            "mapIcon": "img/temp/zoo-project/map_icon.png"
+		},
+		{
+		    "id": 36,
+		    "type": "art", 
+		    "title": "Untitled (bike people)",
+		    "artists": [
+		    				{
+		    					"id": 33,
+		    					"name": "Alex Senna",
+		    					"profilePic": "img/temp/alex-senna/profile_pic.jpg",
+					            "city": "Vila Madalena, São Paulo",
+					            "country": "Brazil"
+		    				}
+		    		   ],
+		    "src": "img/temp/alex-senna/primary.jpg",
+		    "year": "2015",
+		    "imgs": [ 
+		              "img/temp/alex-senna/primary.jpg",
+		              "img/temp/alex-senna/img1.jpg",
+              		  "img/temp/alex-senna/img2.jpg",
+		              "img/temp/alex-senna/img3.jpg",
+              		  "img/temp/alex-senna/img4.jpg",		              
+		              "img/temp/alex-senna/img5.jpg"
+              		],
+            "lat": "-23.551437",
+            "long": "-46.697566",
+            "city": "Vila Madalena, São Paulo",
+            "country": "Brazil",
+            "mapIcon": "img/temp/alex-senna/map_icon.png"
+		},
+		{
+		    "id": 37,
+		    "type": "art", 
+		    "title": "Untitled",
+		    "artists": [
+		    				{
+		    					"id": 34,
+		    					"name": "Arlin",
+		    					"profilePic": "img/temp/arlin/profile_pic.jpg",
+					            "city": "Av Cruzeiro do Sul, São Paulo",
+					            "country": "Brazil"
+		    				}
+		    		   ],
+		    "src": "img/temp/arlin/primary.jpg",
+		    "year": "2015",
+		    "imgs": [ 
+		              "img/temp/arlin/primary.jpg",
+		              "img/temp/arlin/img1.jpg",
+              		  "img/temp/arlin/img2.jpg",
+		              "img/temp/arlin/img3.jpg",
+              		  "img/temp/arlin/img4.jpg",		              
+		              "img/temp/arlin/img5.jpg"
+              		],
+            "lat": "-23.513875",
+            "long": "-46.625059",
+            "city": "Av Cruzeiro do Sul, São Paulo",
+            "country": "Brazil",
+            "mapIcon": "img/temp/arlin/map_icon.png"
+		},
+		{
+		    "id": 38,
+		    "type": "art", 
+		    "title": "Passed Out (child sleeping with a pillow)",
+		    "artists": [
+		    				{
+		    					"id": 35,
+		    					"name": "Bumblebee (loves you)",
+		    					"profilePic": "img/temp/bumblebee-(loves-you)/profile_pic.jpg",
+					            "city": "Los Angeles, CA",
+					            "country": "USA"
+		    				}
+		    		   ],
+		    "src": "img/temp/bumblebee-(loves-you)/primary.jpg",
+		    "year": "2015",
+		    "imgs": [ 
+		              "img/temp/bumblebee-(loves-you)/primary.jpg",
+		              "img/temp/bumblebee-(loves-you)/img1.jpg",
+              		  "img/temp/bumblebee-(loves-you)/img2.jpg",
+              		  "img/temp/bumblebee-(loves-you)/img3.jpg",
+              		  "img/temp/bumblebee-(loves-you)/img4.jpg",
+              		  "img/temp/bumblebee-(loves-you)/img5.jpg",
+              		  "img/temp/bumblebee-(loves-you)/img6.jpg",
+              		  "img/temp/bumblebee-(loves-you)/img7.jpg",
+		              "img/temp/bumblebee-(loves-you)/img8.jpg"
+              		],
+            "lat": "33.984863",
+            "long": "-118.370904",
+            "city": "Los Angeles, CA",
+            "country": "USA",
+            "mapIcon": "img/temp/bumblebee-(loves-you)/map_icon.png"
+		},
+		{
+		    "id": 39,
+		    "type": "art", 
+		    "title": "Untitled",
+		    "artists": [
+		    				{
+		    					"id": 36,
+		    					"name": "Lemza",
+		    					"profilePic": "img/temp/lemza/profile_pic.jpg",
+					            "city": "Paris",
+					            "country": "France"
+		    				}
+		    		   ],
+		    "src": "img/temp/lemza/primary.jpg",
+		    "year": "2015",
+		    "imgs": [ 
+		              "img/temp/lemza/primary.jpg",
+		              "img/temp/lemza/img1.jpg",
+              		  "img/temp/lemza/img2.jpg",
+		              "img/temp/lemza/img3.jpg",
+              		  "img/temp/lemza/img4.jpg",		              
+		              "img/temp/lemza/img5.jpg"
+              		],
+            "lat": "48.856614",
+            "long": "2.352222",
+            "city": "Paris",
+            "country": "France",
+            "mapIcon": "img/temp/lemza/map_icon.png"
+		},
+		{
+		    "id": 40,
+		    "type": "art", 
+		    "title": "Untitled (pink one)",
+		    "artists": [
+		    				{
+		    					"id": 37,
+		    					"name": "Liqen",
+		    					"profilePic": "img/temp/liqen/profile_pic.jpg",
+					            "city": "Mexico City",
+					            "country": "Mexico"
+		    				}
+		    		   ],
+		    "src": "img/temp/liqen/primary.jpg",
+		    "year": "2015",
+		    "imgs": [ 
+		              "img/temp/liqen/primary.jpg",
+		              "img/temp/liqen/img1.jpg",
+              		  "img/temp/liqen/img2.jpg",
+		              "img/temp/liqen/img3.jpg"
+              		],
+            "lat": "19.432608",
+            "long": "-99.133208",
+            "city": "Mexico City",
+            "country": "Mexico",
+            "mapIcon": "img/temp/liqen/map_icon.png"
+		},
+		{
+		    "id": 41,
+		    "type": "art", 
+		    "title": "Untitled",
+		    "artists": [
+		    				{
+		    					"id": 38,
+		    					"name": "Magrela",
+		    					"profilePic": "img/temp/magrela/profile_pic.jpg",
+					            "city": "São Paulo",
+					            "country": "Brazil"
+		    				}
+		    		   ],
+		    "src": "img/temp/magrela/primary.jpg",
+		    "year": "2015",
+		    "imgs": [ 
+		              "img/temp/magrela/primary.jpg",
+		              "img/temp/magrela/img1.jpg",
+              		  "img/temp/magrela/img2.jpg",
+		              "img/temp/magrela/img3.jpg",
+              		  "img/temp/magrela/img4.jpg",		              
+		              "img/temp/magrela/img5.jpg",
+              		  "img/temp/magrela/img6.jpg"
+              		],
+            "lat": "-23.582473",
+            "long": "-46.651458",
+            "city": "São Paulo",
+            "country": "Brazil",
+            "mapIcon": "img/temp/magrela/map_icon.png"
+		},
+		{
+		    "id": 42,
+		    "type": "art", 
+		    "title": "Untitled",
+		    "artists": [
+		    				{
+		    					"id": 39,
+		    					"name": "Nove",
+		    					"profilePic": "img/temp/nove/profile_pic.jpg",
+					            "city": "São Paulo",
+					            "country": "Brazil"
+		    				}
+		    		   ],
+		    "src": "img/temp/nove/primary.jpg",
+		    "year": "2015",
+		    "imgs": [ 
+		              "img/temp/nove/primary.jpg",
+		              "img/temp/nove/img1.jpg",
+              		  "img/temp/nove/img2.jpg"
+              		],
+            "lat": "-23.568341",
+            "long": "-46.649488",
+            "city": "São Paulo",
+            "country": "Brazil",
+            "mapIcon": "img/temp/nove/map_icon.png"
+		},
+		{
+		    "id": 43,
+		    "type": "art", 
+		    "title": "Untitled",
+		    "artists": [
+		    				{
+		    					"id": 40,
+		    					"name": "Shepard Fairey",
+		    					"profilePic": "img/temp/shepard-fairey/profile_pic.jpg",
+					            "city": "Los Angeles, CA",
+					            "country": "USA"
+		    				}
+		    		   ],
+		    "src": "img/temp/shepard-fairey/primary.jpg",
+		    "year": "2015",
+		    "imgs": [ 
+		              "img/temp/shepard-fairey/primary.jpg",
+		              "img/temp/shepard-fairey/img1.jpg",
+              		  "img/temp/shepard-fairey/img2.jpg",
+		              "img/temp/shepard-fairey/img3.jpg",
+              		  "img/temp/shepard-fairey/img4.jpg"
+              		],
+            "lat": "34.083462",
+            "long": "-118.336614",
+            "city": "Los Angeles, CA",
+            "country": "USA",
+            "mapIcon": "img/temp/shepard-fairey/map_icon.png"
+		},
+		{
+		    "id": 44,
+		    "type": "art", 
+		    "title": "Untitled",
+		    "artists": [
+		    				{
+		    					"id": 41,
+		    					"name": "Stinkfish",
+		    					"profilePic": "img/temp/stinkfish/profile_pic.jpg",
+					            "city": "Bogota",
+					            "country": "Colombia"
+		    				}
+		    		   ],
+		    "src": "img/temp/stinkfish/primary.jpg",
+		    "year": "2015",
+		    "imgs": [ 
+		              "img/temp/stinkfish/primary.jpg",
+		              "img/temp/stinkfish/img1.jpg",
+              		  "img/temp/stinkfish/img2.jpg",
+		              "img/temp/stinkfish/img3.jpg",
+              		  "img/temp/stinkfish/img4.jpg",		              
+		              "img/temp/stinkfish/img5.jpg",
+              		  "img/temp/stinkfish/img6.jpg"
+              		],
+            "lat": "4.710989",
+            "long": "-74.072092",
+            "city": "Bogota",
+            "country": "Colombia",
+            "mapIcon": "img/temp/stinkfish/map_icon.png"
+		},
+		{
+		    "id": 45,
+		    "type": "art", 
+		    "title": "Project Color City",
+		    "artists": [
+		    				{
+		    					"id": 42,
+		    					"name": "Thiago Toes",
+		    					"profilePic": "img/temp/thiago-toes/profile_pic.jpg",
+					            "city": "São Paulo",
+					            "country": "Brazil"
+		    				}
+		    		   ],
+		    "src": "img/temp/thiago-toes/primary.jpg",
+		    "year": "2015",
+		    "imgs": [ 
+		              "img/temp/thiago-toes/primary.jpg",
+		              "img/temp/thiago-toes/img1.jpg",
+              		  "img/temp/thiago-toes/img2.jpg",
+		              "img/temp/thiago-toes/img3.jpg"
+              		],
+            "lat": "-23.578661",
+            "long": "-46.645528",
+            "city": "Sao Paulo",
+            "country": "Brazil",
+            "mapIcon": "img/temp/thiago-toes/map_icon.png"
+		},
+		{
+		    "id": 46,
+		    "type": "art", 
+		    "title": "Over, Under",
+		    "artists": [
+		    				{
+		    					"id": 43,
+		    					"name": "Aakash Nihalani",
+		    					"profilePic": "img/temp/aakash-nihalani/profile_pic.jpg",
+					            "city": "Brooklyn, NY",
+					            "country": "USA"
+		    				}
+		    		   ],
+		    "src": "img/temp/aakash-nihalani/primary.jpg",
+		    "year": "2015",
+		    "imgs": [ 
+		              "img/temp/aakash-nihalani/primary.jpg",
+		              "img/temp/aakash-nihalani/img1.jpg",
+              		  "img/temp/aakash-nihalani/img2.jpg",
+		              "img/temp/aakash-nihalani/img3.jpg",
+              		  "img/temp/aakash-nihalani/img4.jpg",		              
+		              "img/temp/aakash-nihalani/img5.jpg"
+              		],
+            "lat": "40.678178",
+            "long": "-73.944158",
+            "city": "Brooklyn, NY",
+            "country": "USA",
+            "mapIcon": "img/temp/aakash-nihalani/map_icon.png"
+		},
+		{
+		    "id": 47,
+		    "type": "art", 
+		    "title": "Untitled",
+		    "artists": [
+		    				{
+		    					"id": 44,
+		    					"name": "Eine",
+		    					"profilePic": "img/temp/eine/profile_pic.jpg",
+					            "city": "London",
+					            "country": "UK"
+		    				}
+		    		   ],
+		    "src": "img/temp/eine/primary.jpg",
+		    "year": "2015",
+		    "imgs": [ 
+		              "img/temp/eine/primary.jpg",
+		              "img/temp/eine/img1.jpg",
+              		  "img/temp/eine/img2.jpg",
+		              "img/temp/eine/img3.jpg",
+              		  "img/temp/eine/img4.jpg",		              
+		              "img/temp/eine/img5.jpg",
+		              "img/temp/eine/img6.jpg"
+              		],
+            "lat": "51.516633",
+            "long": "-0.076882",
+            "city": "London",
+            "country": "UK",
+            "mapIcon": "img/temp/eine/map_icon.png"
+		},
+		{
+		    "id": 48,
+		    "type": "art", 
+		    "title": "1000 Shadows",
+		    "artists": [
+		    				{
+		    					"id": 45,
+		    					"name": "Herbert Baglione",
+		    					"profilePic": "img/temp/herbert-baglione/profile_pic.jpg",
+					            "city": "Frankfurt",
+					            "country": "Germany"
+		    				}
+		    		   ],
+		    "src": "img/temp/herbert-baglione/primary.jpg",
+		    "year": "2015",
+		    "imgs": [ 
+		              "img/temp/herbert-baglione/primary.jpg",
+		              "img/temp/herbert-baglione/img1.jpg",
+              		  "img/temp/herbert-baglione/img2.jpg",
+		              "img/temp/herbert-baglione/img3.jpg",
+              		  "img/temp/herbert-baglione/img4.jpg",		              
+		              "img/temp/herbert-baglione/img5.jpg",
+		              "img/temp/herbert-baglione/img6.jpg",
+		              "img/temp/herbert-baglione/img7.jpg",
+		              "img/temp/herbert-baglione/img8.jpg"
+              		],
+            "lat": "50.110922",
+            "long": "8.682127",
+            "city": "Frankfurt",
+            "country": "Germany",
+            "mapIcon": "img/temp/herbert-baglione/map_icon.png"
+		},
+		{
+		    "id": 49,
+		    "type": "art", 
+		    "title": "(A)part and Intertwined",
+		    "artists": [
+		    				{
+		    					"id": 46,
+		    					"name": "Know Hope",
+		    					"profilePic": "img/temp/know-hope/profile_pic.jpg",
+					            "city": "Farnham",
+					            "country": "UK"
+		    				}
+		    		   ],
+		    "src": "img/temp/know-hope/primary.jpg",
+		    "year": "2015",
+		    "imgs": [ 
+		              "img/temp/know-hope/primary.jpg",
+		              "img/temp/know-hope/img1.jpg",
+              		  "img/temp/know-hope/img2.jpg",
+		              "img/temp/know-hope/img3.jpg",
+              		  "img/temp/know-hope/img4.jpg"
+              		],
+            "lat": "51.214321",
+            "long": "-0.798802",
+            "city": "Farnham",
+            "country": "UK",
+            "mapIcon": "img/temp/know-hope/map_icon.png"
+		},
+		{
+		    "id": 50,
+		    "type": "art", 
+		    "title": "Inspired by The Bone Brigade",
+		    "artists": [
+		    				{
+		    					"id": 47,
+		    					"name": "Ludo",
+		    					"profilePic": "img/temp/ludo/profile_pic.jpg",
+					            "city": "Paris",
+					            "country": "France"
+		    				}
+		    		   ],
+		    "src": "img/temp/ludo/primary.jpg",
+		    "year": "2015",
+		    "imgs": [ 
+		              "img/temp/ludo/primary.jpg",
+		              "img/temp/ludo/img1.jpg",
+              		  "img/temp/ludo/img2.jpg",
+		              "img/temp/ludo/img3.jpg",
+              		  "img/temp/ludo/img4.jpg",		              
+		              "img/temp/ludo/img5.jpg"
+              		],
+            "lat": "48.856614",
+            "long": "2.352222",
+            "city": "Paris",
+            "country": "France",
+            "mapIcon": "img/temp/ludo/map_icon.png"
+		},
+		{
+		    "id": 51,
+		    "type": "art", 
+		    "title": "Untitled",
+		    "artists": [
+		    				{
+		    					"id": 48,
+		    					"name": "M-City",
+		    					"profilePic": "img/temp/m-city/profile_pic.jpg",
+					            "city": "Miami, FL",
+					            "country": "USA"
+		    				}
+		    		   ],
+		    "src": "img/temp/m-city/primary.jpg",
+		    "year": "2015",
+		    "imgs": [ 
+		              "img/temp/m-city/primary.jpg",
+		              "img/temp/m-city/img1.jpg",
+              		  "img/temp/m-city/img2.jpg",
+		              "img/temp/m-city/img3.jpg",
+              		  "img/temp/m-city/img4.jpg"
+              		],
+            "lat": "25.761680",
+            "long": "-80.191790",
+            "city": "Miami, FL",
+            "country": "USA",
+            "mapIcon": "img/temp/m-city/map_icon.png"
+		},
+		{
+		    "id": 52,
+		    "type": "art", 
+		    "title": "Untitled",
+		    "artists": [
+		    				{
+		    					"id": 49,
+		    					"name": "Mesa",
+		    					"profilePic": "img/temp/mesa/profile_pic.jpg",
+					            "city": "Barcelona",
+					            "country": "Spain"
+		    				}
+		    		   ],
+		    "src": "img/temp/mesa/primary.jpg",
+		    "year": "2015",
+		    "imgs": [ 
+		              "img/temp/mesa/primary.jpg",
+		              "img/temp/mesa/img1.jpg",
+              		  "img/temp/mesa/img2.jpg",
+		              "img/temp/mesa/img3.jpg",
+              		  "img/temp/mesa/img4.jpg"
+              		],
+            "lat": "41.297445",
+            "long": "2.083294",
+            "city": "Barcelona",
+            "country": "Spain",
+            "mapIcon": "img/temp/mesa/map_icon.png"
+		},
+		{
+		    "id": 53,
+		    "type": "art", 
+		    "title": "Finished Wall",
+		    "artists": [
+		    				{
+		    					"id": 50,
+		    					"name": "Phlegm",
+		    					"profilePic": "img/temp/phlegm/profile_pic.jpg",
+					            "city": "London",
+					            "country": "UK"
+		    				}
+		    		   ],
+		    "src": "img/temp/phlegm/primary.jpg",
+		    "year": "2015",
+		    "imgs": [ 
+		              "img/temp/phlegm/primary.jpg",
+		              "img/temp/phlegm/img1.jpg",
+              		  "img/temp/phlegm/img2.jpg",
+		              "img/temp/phlegm/img3.jpg",
+              		  "img/temp/phlegm/img4.jpg",		              
+		              "img/temp/phlegm/img5.jpg"
+              		],
+            "lat": "51.524498",
+            "long": "-0.078920",
+            "city": "London",
+            "country": "UK",
+            "mapIcon": "img/temp/phlegm/map_icon.png"
+		},
+		{
+		    "id": 54,
+		    "type": "art", 
+		    "title": "Hold Tight",
+		    "artists": [
+		    				{
+		    					"id": 51,
+		    					"name": "Steve Powers",
+		    					"profilePic": "img/temp/steve-powers/profile_pic.jpg",
+					            "city": "Philadelphia, PA",
+					            "country": "USA"
+		    				}
+		    		   ],
+		    "src": "img/temp/steve-powers/primary.jpg",
+		    "year": "2015",
+		    "imgs": [ 
+		              "img/temp/steve-powers/primary.jpg",
+		              "img/temp/steve-powers/img1.jpg",
+              		  "img/temp/steve-powers/img2.jpg",
+		              "img/temp/steve-powers/img3.jpg",
+              		  "img/temp/steve-powers/img4.jpg",		              
+		              "img/temp/steve-powers/img5.jpg"
+              		],
+            "lat": "39.959694",
+            "long": "-75.222906",
+            "city": "Philadelphia, PA",
+            "country": "USA",
+            "mapIcon": "img/temp/steve-powers/map_icon.png"
+		},
+		{
+		    "id": 55,
+		    "type": "art", 
+		    "title": "FZ",
+		    "artists": [
+		    				{
+		    					"id": 52,
+		    					"name": "Escaping Criticism",
+		    					"profilePic": "img/temp/zilda/profile_pic.jpg",
+					            "city": "Rennes",
+					            "country": "France"
+		    				}
+		    		   ],
+		    "src": "img/temp/zilda/primary.jpg",
+		    "year": "2015",
+		    "imgs": [ 
+		              "img/temp/zilda/primary.jpg",
+		              "img/temp/zilda/img1.jpg",
+              		  "img/temp/zilda/img2.jpg",
+		              "img/temp/zilda/img3.jpg",
+              		  "img/temp/zilda/img4.jpg",		              
+		              "img/temp/zilda/img5.jpg"
+              		],
+            "lat": "51.524498",
+            "long": "-0.078920",
+            "city": "Rennes",
+            "country": "France",
+            "mapIcon": "img/temp/zilda/map_icon.png"
+		}
+]
